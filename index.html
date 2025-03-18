@@ -5,6 +5,13 @@
 <style>
 
 </style>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+</script>
 <body>
     <div id = "container">
         <header>
@@ -14,17 +21,49 @@
             <div class = "container">
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
                     <li><a href="">About</a></li>
                 </ul>
             </div>
         </nav>
         <div class = "flex-container">
             <div>1</div>
-            <div>1</div>
-            <divstyle="flex-grow: 2"></divstyle></div>
-            
+            <div> <div id="accordion">
+                <h3>Section 1</h3>
+                <div>
+                    <a href="https://teentitans.fandom.com/wiki/Teen_Titans_(series)" style="float:left;">
+                        <img border="0" alt="Teen Titans" src="image/teentitanrn.jpg" width="100">
+                  <p>
+                    Teen Titans is a DC superhero team of teenage sidekicks. They where popular to 
+                    to have a TV show in 2003. The person in the right on this text is Robin the team leader 
+                   and the frist Robin named Dick Grasyon. Who is also the superhero Nightwing.
+                  </p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                  <p>
+                  Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                  purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                  velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                  suscipit faucibus urna.
+                  </p>
+                </div>
+                <h3>Section 3</h3>
+                <div>
+                    <p>List on the Teen Titan members as seen on the frist photo on the left. </p>
+                    <ol>
+                        <li> Cyborg</1i>
+                        <li> Starfire</1i>
+                        <li> Beastboy</1i>
+                        <li> Robin</1i>
+                        <li> Raven</1i>
+                    </ol>
+                </div>
+            <div style="flex-grow: 2"><div class="flex-container col">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
 
         
         </div>
+</body>
