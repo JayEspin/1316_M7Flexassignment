@@ -1,0 +1,13 @@
+.flex-container{
+    display: flex;
+}
+.flex-container > div{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    flex-grow: 1;
+}
+.col{
+    flex-direction: column;
+}
