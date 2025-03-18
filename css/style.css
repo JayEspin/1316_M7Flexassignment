@@ -53,6 +53,7 @@ h1{
 }
 .flex-container > div{
     background-color: white;
+    width: 50%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
@@ -61,3 +62,15 @@ h1{
 .col{
     flex-direction: column;
 }
+table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 150%;
+  float: left;
+  margin-right: 50px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+ }
